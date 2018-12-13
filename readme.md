@@ -14,8 +14,8 @@
  - Enter a Slack for `Name`
  - Enter a description for `Description`
  - Select *Webhook* for `Channel Type`
- - Enter the ngrok url with the extension
-   - Example https://06696d1d.ngrok.io/webhook/messages 
+ - Enter the server url with the extension
+   - Example https://xxxxxxxx.server.io/webhook/messages 
  - Select *Enabled* for `Channel Enabled`
  - copy the webhook url and the secret key
  - in the source code find the .env
@@ -28,7 +28,7 @@
  - select your workspace
  - go to Interactive Components
  - Enable and enter your ngrok URL + /interactive-components
-    - example: https://xxxxxxxx.ngrok.io/interactive-components
+    - example: https://xxxxxxxx.server.io/interactive-components
  - save changes
  - go to OAuth & Permissions
  - go to scopes and enter *chat:write:bot* and *users:read*
